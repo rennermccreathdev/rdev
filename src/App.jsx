@@ -29,7 +29,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
 
-    <h1>coming soon...</h1>
+    <h1>rennermccreathdev will return...</h1>
     </>
   )
 }
