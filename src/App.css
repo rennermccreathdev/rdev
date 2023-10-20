@@ -1,3 +1,12 @@
+/* html {
+  background-color: violet;
+  background-size: cover;
+  min-width: 80vw;
+  min-height: 80vh;
+  margin: 20px 20px 100px 20px;
+  border: 20px solid #61dafb;
+  border-radius: 5%;
+} */
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -48,6 +57,12 @@
   color: rgba(255, 251, 0, 0.87);
   font-family: 'Oswald', sans-serif;
   /* font-family: 'VT323', monospace; */
+  /* background-color: red;
+
+  background-size: cover;
+  border: #61dafb;
+  border-style: solid;
+  border-width: 20px; */
 }
 
 ul {
@@ -64,7 +79,7 @@ a {
   color: whitesmoke
 }
 
-video {
+/* video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -72,7 +87,7 @@ video {
   top: 0;
   left: 0;
   z-index: -10;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -94,6 +109,9 @@ video {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: #61dafb;
+  border-style: solid;
+  border-width: 20px;
 }
 
 .App-link {
@@ -107,4 +125,17 @@ video {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .screenborder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  Width: 80%;
+  background-color: yellowgreen;
+} */
+
+.nav {
+  padding: 20px;
 }
