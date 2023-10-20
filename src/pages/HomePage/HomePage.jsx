@@ -8,12 +8,12 @@ import "./homepage.css"
 const HomePage = () => {
     return (
         <div>
-            
-                <Navbar />
-            
+            {/* <Navbar /> */}
             <Header />
+            <div className="flexy">
             <Title />
             <Home />
+            </div>
         </div>
     );
 };
