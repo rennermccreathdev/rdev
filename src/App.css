@@ -45,7 +45,7 @@
 
 .App {
   /* text-align: center; */
-  color: whitesmoke;
+  color: rgba(255, 251, 0, 0.87);
   font-family: 'Oswald', sans-serif;
   /* font-family: 'VT323', monospace; */
 }
