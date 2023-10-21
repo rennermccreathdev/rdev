@@ -1,3 +1,26 @@
 .nav {
     padding: 20px;
-  }
+}
+
+.logoletters {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.logoR {
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 48.5%;
+  opacity: 0.9;
+}
+
+.logoM {
+  position: absolute;
+  font-weight: 700;
+  left: 49.5%;
+  z-index: 0;
+  opacity: 0.8;
+}
+
