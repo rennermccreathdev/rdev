@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage/HomePage.jsx'
 import BioPage from './pages/BioPage/BioPage.jsx'
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage.jsx'
 import ContactPage from './pages/ContactPage/ContactPage.jsx'
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,9 @@ function App() {
     <>
     <div className="App">
   
-     
+    <Helmet>
+      <script src="./script.js" defer async></script>
+    </Helmet>
       
         <Router>
           <Routes>

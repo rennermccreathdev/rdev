@@ -11,7 +11,9 @@ const HomePage = () => {
         <div>
             <Navbar />
             <Header />
+            <div className="logo">
             <Logo />
+            </div>
             <div className="flexy">
             <Title />
             <Home />
