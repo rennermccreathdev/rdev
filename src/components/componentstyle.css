@@ -6,15 +6,14 @@
   display: flex;
   justify-content: center;
   position: relative;
-  font-family: "Lato";
   animation: neonGlow 2s infinite alternate;
   font-size: 10vw;
-  color: rgba(1, 60, 75);
+  /* color: rgba(255, 0, 255); */
 }
 
 @keyframes flicker {
   0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-    opacity: .99;
+    opacity: .8;
       
   }
   20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
@@ -25,6 +24,7 @@
 .logoR {
   position: absolute;
   font-weight: 700;
+  color: rgba(11,211,211);
   z-index: 1;
   left: 40.5%;
   opacity: 0.9;
@@ -34,6 +34,7 @@
 .logoM {
   position: absolute;
   font-weight: 700;
+  color: rgba(248,144,231);
   z-index: 0;
   right: 40.5%;
   opacity: 1;
@@ -45,22 +46,22 @@
     text-shadow: 0 0 10px rgba(255,255,255,.8),
                   0 0 20px rgba(255,255,255,.8),
                   0 0 22px  rgba(255,255,255,.8),
-                  0 0 40px  rgba(66,220,219,.8),
-                  0 0 60px  rgba(66,220,219,.8),
-                  0 0 80px  rgba(66,220,219,.5),
-                  0 0 100px rgba(66,220,219,.5),
-                  0 0 140px rgba(66,220,219,.5),
-                  0 0 200px rgba(66,220,219,.5);
+                  0 0 40px  rgba(11,211,211,.8),
+                  0 0 60px  rgba(11,211,211,.8),
+                  0 0 80px  rgba(11,211,211,.5),
+                  0 0 100px rgba(11,211,211,.5),
+                  0 0 140px rgba(11,211,211,.5),
+                  0 0 200px rgba(11,211,211,.5);
   }
   100% {
     text-shadow: 0 0 2px rgba(255,255,255,.8),
                   0 0 8px rgba(255,255,255,.8),
                   0 0 10px rgba(255,255,255,.8),
-                  0 0 20px rgba(66,220,219,.8),
-                  0 0 30px rgba(66,220,219,.8),
-                  0 0 40px rgba(66,220,219,.8),
-                  0 0 50px rgba(66,220,219,.5),
-                  0 0 80px rgba(66,220,219,.5);
+                  0 0 20px rgba(248,144,231,.8),
+                  0 0 30px rgba(248,144,231,.8),
+                  0 0 40px rgba(248,144,231,.8),
+                  0 0 50px rgba(248,144,231,.5),
+                  0 0 80px rgba(248,144,231,.5);
   }
 }
 
@@ -139,7 +140,7 @@
   transition: all 0.4s ease-in-out; }
   .menu.is-active {
     top: 0;
-    width: 100%;
+    
     height: auto; }
   .menu__inner {
     display: flex;

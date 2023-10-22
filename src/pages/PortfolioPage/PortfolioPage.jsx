@@ -6,7 +6,7 @@ import Portfolio from "../../components/Portfolio";
 
 const PortfolioPage = () => {
     return (
-        <div>
+        <div class="fade">
             <Navbar />
             <Header />
             <Title />
