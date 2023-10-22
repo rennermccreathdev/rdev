@@ -41,8 +41,8 @@
   animation: flicker 10s linear infinite;
 }
 
-.bio {
-  padding-top: 10%;
+.bio, .portfolio, .contact{
+  padding: 10%;
 }
 
 @keyframes neonGlow {

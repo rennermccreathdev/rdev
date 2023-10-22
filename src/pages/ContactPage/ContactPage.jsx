@@ -8,9 +8,9 @@ const ContactPage = () => {
     return (
         <div class="fade">
             <Navbar />
-            <Header />
-            <Title />
+            <div className="contact">
             <Contact />
+            </div>
         </div>
     );
 };

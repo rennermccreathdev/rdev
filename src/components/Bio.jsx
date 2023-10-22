@@ -4,10 +4,9 @@ import "./componentstyle.css"
 const Bio = () => {
   return (
     <div>
-      {/* <h2>Hi there.</h2>
+      <h2 class="logoletters">Hi there.</h2>
       <h3>I'm Renner - a full-stack software engineer based in Canada.</h3>
-      <h3>Using the full spectrum of modern web technologies, I build digital solutions.</h3>   */}
-      <h1>coming soon...</h1>
+      <h3>This page is currently a work in progress. Check back frequently for updates!</h3>  
     </div>
   );
 };

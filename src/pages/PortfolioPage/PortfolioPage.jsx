@@ -8,9 +8,9 @@ const PortfolioPage = () => {
     return (
         <div class="fade">
             <Navbar />
-            <Header />
-            <Title />
+            <div className="portfolio">
             <Portfolio />
+            </div>
         </div>
     );
 };

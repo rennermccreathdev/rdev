@@ -10,9 +10,11 @@ const HomePage = () => {
     return (
         <div class="fade">
             <Navbar />
-            <Header />
-            <Title />
+            
+            <div className="bio">
+            
             <Bio />
+            </div>
         </div>
     );
 };
