@@ -8,7 +8,7 @@ import "./homepage.css"
 
 const HomePage = () => {
     return (
-        <div>
+        <div class="fade">
             <Navbar />
             <Header />
             <div className="logo">
