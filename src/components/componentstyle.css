@@ -163,6 +163,30 @@
     color: var(--color-white-100);
     text-transform: uppercase;
     transition: all 0.3s ease; }
+  @media only screen and (max-width: 450px) {
+    .logoletters {
+      font-size: 30vw;
+      padding-top: 30%;
+    }
+    .logoR {
+      left: 20%;
+    }
+    .logoM {
+      right: 20%;
+    }
+   }
+   @media only screen and (max-width: 650px) {
+    .logoletters {
+      font-size: 20vw;
+      padding-top: 10%;
+    }
+    .logoR {
+      left: 30%;
+    }
+    .logoM {
+      right: 30%;
+    }
+   }
   @media only screen and (min-width: 650px) {
     .menu {
       position: relative;
