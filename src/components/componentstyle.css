@@ -238,6 +238,9 @@
     .contactlink {
       font-size: 40%;
     }
+    .footercontainer{
+      bottom: 4%;
+    }
     .footerextra, .footericons {
       flex-direction: column;
     }
