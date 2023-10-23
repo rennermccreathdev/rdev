@@ -10,8 +10,9 @@ import "./homepage.css"
 const HomePage = () => {
 
     return (
-        <div class="fade">
+        <>
             <Navbar />
+            <div class="fade">
             <Header />
             <div className="hometitle">
             <div className="logo">
@@ -23,7 +24,8 @@ const HomePage = () => {
             </div>
             </div>
             <Footer />
-        </div>
+            </div>
+            </>
     );
 };
 

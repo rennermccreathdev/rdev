@@ -8,14 +8,16 @@ import "../../App.css"
 
 const HomePage = () => {
     return (
-        <div class="fade">
+        <>
+        
             <Navbar />
-            
+            <div class="fade">
             <div className="bio">
             
             <Bio />
             </div>
         </div>
+        </>
     );
 };
 

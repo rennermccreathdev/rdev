@@ -6,12 +6,15 @@ import Portfolio from "../../components/Portfolio";
 
 const PortfolioPage = () => {
     return (
-        <div class="fade">
+        <>
+        
             <Navbar />
+            <div class="fade">
             <div className="portfolio">
             <Portfolio />
             </div>
         </div>
+        </>
     );
 };
 

@@ -3,8 +3,10 @@ import "./componentstyle.css"
 
 const Title = () => {
   return (
-    <div>
-      <h1>Welcome to rennermccreath.dev!</h1>
+    <div className='title'>
+      <h1>Full Stack Software Engineer</h1>
+      <h1>Digital Consultant</h1>
+      <h1>Canadian</h1>
     </div>
   );
 };
