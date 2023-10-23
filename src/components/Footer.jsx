@@ -24,7 +24,7 @@ const Footer = () => {
     </div>
     <div className="footerextra">
       <a href="www.renner.digital" target="blank" className="contactlink"><FontAwesomeIcon icon={faCopyright} /> Renner Digital 2023</a>
-      <a href="/contact#sources" target="blank" className="contactlink"><FontAwesomeIcon icon={faBrush} /> Sources</a>
+      <a href="https://wallpapers.com/wallpapers/astronaut-bonfire-pixel-art-6jm0bumas1tmb7hc.html" target="blank" className="contactlink"><FontAwesomeIcon icon={faBrush} /> Artwork</a>
     </div>
     </div>
     </>
