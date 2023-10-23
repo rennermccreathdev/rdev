@@ -5,6 +5,7 @@ import Title from "../../components/Title";
 import Bio from "../../components/Bio";
 import "./biopage.css"
 import "../../App.css"
+import Footer from "../../components/Footer";
 
 const HomePage = () => {
     return (
@@ -16,7 +17,9 @@ const HomePage = () => {
             
             <Bio />
             </div>
+            
         </div>
+        <Footer />
         </>
     );
 };
