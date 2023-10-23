@@ -14,6 +14,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
   return (
     <>
+    <div className="footercontainer">
     <div class="footericons">
       <a href="https://github.com/rennermccreathdev" target="blank" className="contactlink"><FontAwesomeIcon icon={faGithub} /></a>
       <a href="https://www.linkedin.com/in/rennermccreathdev/" target="blank" className="contactlink"><FontAwesomeIcon icon={faLinkedin} /></a>
@@ -24,6 +25,7 @@ const Footer = () => {
     <div className="footerextra">
       <a href="www.renner.digital" target="blank" className="contactlink"><FontAwesomeIcon icon={faCopyright} /> Renner Digital 2023</a>
       <a href="/contact#sources" target="blank" className="contactlink"><FontAwesomeIcon icon={faBrush} /> Sources</a>
+    </div>
     </div>
     </>
   );

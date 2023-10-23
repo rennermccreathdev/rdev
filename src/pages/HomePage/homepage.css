@@ -6,10 +6,11 @@ body {
 
 .flexy {
     min-width: 90vw;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    padding-left: 3%;
 }
 
 .logo {
