@@ -23,7 +23,7 @@ const Footer = () => {
       <a href="mailto:rennermccreathdev@gmail.com" target="blank" className="contactlink"><FontAwesomeIcon icon={faEnvelope} /></a>
     </div>
     <div className="footerextra">
-      <a href="www.renner.digital" target="blank" className="contactlink"><FontAwesomeIcon icon={faCopyright} /> Renner Digital 2023</a>
+      <a href="https://www.renner.digital/" target="blank" className="contactlink"><FontAwesomeIcon icon={faCopyright} /> Renner Digital 2023</a>
       <a href="https://wallpapers.com/wallpapers/astronaut-bonfire-pixel-art-6jm0bumas1tmb7hc.html" target="blank" className="contactlink"><FontAwesomeIcon icon={faBrush} /> Artwork</a>
     </div>
     </div>

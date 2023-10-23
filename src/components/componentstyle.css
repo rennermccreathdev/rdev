@@ -247,6 +247,9 @@
     .footericons {
       justify-content: end;
     }
+    .footerextra {
+      text-align: end;
+    }
    }
 
 
