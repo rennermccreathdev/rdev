@@ -4,7 +4,7 @@ import "./componentstyle.css"
 const Title = () => {
   return (
     <div>
-      <h1>rennermccreath.dev</h1>
+      <h1>Welcome to rennermccreath.dev!</h1>
     </div>
   );
 };

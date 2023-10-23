@@ -4,13 +4,16 @@ import Header from "../../components/Header";
 import Title from "../../components/Title";
 import Home from "../../components/Home";
 import Logo from "../../components/Logo";
+import Footer from "../../components/Footer";
 import "./homepage.css"
 
 const HomePage = () => {
+
     return (
         <div class="fade">
             <Navbar />
             <Header />
+            <div className="hometitle">
             <div className="logo">
             <Logo />
             </div>
@@ -18,6 +21,8 @@ const HomePage = () => {
             <Title />
             <Home />
             </div>
+            </div>
+            <Footer />
         </div>
     );
 };
