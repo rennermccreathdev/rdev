@@ -239,7 +239,7 @@
       font-size: 40%;
     }
     .footercontainer{
-      bottom: 4%;
+      bottom: 10%;
     }
     .footerextra, .footericons {
       flex-direction: column;
