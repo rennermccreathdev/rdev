@@ -236,7 +236,10 @@
       right: 30%;
     }
     .contactlink {
-      font-size: 40%;
+      font-size: 80%;
+    }
+    .contactlinkright {
+      font-size: 50%;
     }
     .footercontainer{
       bottom: 10%;
