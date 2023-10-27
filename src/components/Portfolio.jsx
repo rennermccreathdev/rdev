@@ -4,7 +4,8 @@ import "./componentstyle.css"
 const Portfolio = () => {
   return (
     <div>
-      <h1>portfolio coming soon...</h1>
+      <h2 class="logoletters small">work.</h2>
+
     </div>
   );
 };
